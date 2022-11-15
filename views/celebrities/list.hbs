@@ -1,0 +1,11 @@
+<h1>List</h1>
+
+{{#each celebrities}}
+  <p>{{name}}</p>
+  <p>{{occupation}}</p>
+  <p>{{catchPhrase}}</p>
+  <a href="/celebrities/detail/{{_id}}">Show detail</a>
+  <a href="/celebrities/delete/{{_id}}">Delete</a>
+  <a href="/celebrities/edit/{{_id}}">Edit</a>
+  <p>-----</p>
+{{/each}}
